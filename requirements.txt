@@ -1,0 +1,69 @@
+# Core Flask and web framework dependencies
+Flask==3.0.3
+Flask-Cors==5.0.0
+Flask-Login==0.6.3
+Flask-Mail==0.10.0
+Flask-Session==0.8.0
+Werkzeug==3.0.6
+
+# Password hashing and security
+pycryptodome==3.23.0
+pycryptodomex==3.20.0
+cryptography==45.0.5
+
+# Database and ORM
+peewee==3.17.1
+PyMySQL==1.1.1
+psycopg2-binary==2.9.9
+
+# HTTP and requests
+requests==2.32.2
+httpx==0.27.2
+urllib3==2.5.0
+
+# JSON and data processing
+orjson==3.10.18
+pydantic==2.9.2
+pydantic-core==2.23.4
+
+# Utilities
+click==8.2.1
+colorama==0.4.6
+python-dotenv==1.0.1
+PyYAML==6.0.2
+
+# Date and time
+python-dateutil==2.8.2
+pytz==2025.2
+
+# Logging and monitoring
+coloredlogs==15.0.1
+
+# File handling
+aiofiles==24.1.0
+
+# Async support
+anyio==4.9.0
+nest-asyncio==1.6.0
+
+# Caching
+cachetools==5.3.3
+diskcache==5.6.3
+
+# UUID and utilities
+typing-extensions==4.14.1
+
+# JWT and authentication
+PyJWT==2.8.0
+itsdangerous==2.1.2
+
+# Base64 and encoding
+certifi==2025.7.14
+charset-normalizer==3.4.2
+
+# Optional: For advanced features
+# Uncomment if you need these specific features:
+# openai==1.99.9
+# anthropic==0.34.1
+# cohere==5.6.2
+# groq==0.9.0

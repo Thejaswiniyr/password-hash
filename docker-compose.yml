@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  ragflow-hash-api:
+    build: .
+    container_name: ragflow-hash-api
+    ports:
+      - "8082:8082"
+    environment:
+      - TZ=UTC
+    restart: unless-stopped
+    networks:
+      - ragflow-hash-network
+
+networks:
+  ragflow-hash-network:
+    driver: bridge
